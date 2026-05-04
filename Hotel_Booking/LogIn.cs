@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Hotel_Booking
 {
-    public partial class Register : Form
+    public partial class LogIn : Form
     {
-        public Register()
+        public LogIn()
         {
             InitializeComponent();
-        }
-
-        private void textBox4_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
