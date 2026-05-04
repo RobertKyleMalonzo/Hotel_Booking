@@ -145,6 +145,7 @@
             Controls.Add(btnRegister);
             Controls.Add(cmbrole);
             Name = "Register";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Register";
             ResumeLayout(false);
             PerformLayout();
