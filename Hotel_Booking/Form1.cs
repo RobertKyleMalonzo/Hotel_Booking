@@ -85,16 +85,7 @@ namespace Hotel_Booking
                         // Redirect based on role
                         switch (role)
                         {
-                            case "Admin":
-                                AdminDashboard adminDash = new AdminDashboard();
-                                adminDash.Show();
-                                this.Hide();
-                                break;
-                            case "Staff":
-                                StaffDashboard staffDash = new StaffDashboard();
-                                staffDash.Show();
-                                this.Hide();
-                                break;
+                            
                             case "Customer":
                                 UserDashboard userDash = new UserDashboard();
                                 userDash.Show();
@@ -118,5 +109,6 @@ namespace Hotel_Booking
             }
 
         }
+
     }
 }

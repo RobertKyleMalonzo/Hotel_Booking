@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+<<<<<<< HEAD
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             txtEmail = new TextBox();
             txtPassword = new TextBox();
@@ -141,5 +142,14 @@
         private Button btnLogIn;
         private Button btnSignUp;
         private Label label1;
+=======
+            this.components = new System.ComponentModel.Container();
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Text = "Form1";
+        }
+
+        #endregion
+>>>>>>> 2fc2f61d39854838e3729774f1fa279fad43878d
     }
 }
